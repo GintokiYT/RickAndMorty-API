@@ -76,7 +76,7 @@ const Characters = () => {
               className={Estilos.boton}
               onClick={handlePrevious}
             >
-              <img src="../../public/assets/arrow.svg" alt="Arrow Previous" />
+              <img src="./assets/arrow.svg" alt="Arrow Previous" />
               <a 
                 className={Estilos.previous}
                 disabled={pagina === 1 ? true : false}
@@ -96,7 +96,7 @@ const Characters = () => {
               >
                 Siguiente
               </a>
-              <img src="../../public/assets/arrow.svg" alt="Arrow Next" />
+              <img src="./assets/arrow.svg" alt="Arrow Next" />
             </div>
           </div>
         </div>
