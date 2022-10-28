@@ -12,18 +12,16 @@ const Characters = () => {
 
   const handlePrevious = () => {
     if(pagina > 1) {
-      pagina--;
+      pagina = pagina - 1;
       const newUrl = `https://rickandmortyapi.com/api/character?page=${pagina}`;
-      console.log(newUrl)
       setUrl(newUrl);
     }
   }
 
   const handleNext = () => {
     if(pagina < 42) {
-      pagina++;
+      pagina = pagina + 1;
       const newUrl = `https://rickandmortyapi.com/api/character?page=${pagina}`;
-      console.log(newUrl)
       setUrl(newUrl);
     }
   }
